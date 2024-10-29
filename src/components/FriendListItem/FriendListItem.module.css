@@ -1,0 +1,25 @@
+.friendItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.avatar {
+  border-radius: 40%;
+}
+
+.friendName {
+  font-weight: bold;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

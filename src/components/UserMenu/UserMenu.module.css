@@ -1,0 +1,22 @@
+.user-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Відстань між іконками та текстом */
+}
+
+.icon {
+  color: blue; /* Колір для всіх іконок */
+}
+
+/* Якщо потрібно, можна задати індивідуальні стилі */
+.icon.user {
+  color: blue;
+}
+
+.icon.settings {
+  color: green;
+}
+
+.icon.notifications {
+  color: orange;
+}
